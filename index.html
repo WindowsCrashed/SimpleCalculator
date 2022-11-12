@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="./node_modules/mathjs/lib/browser/math.js"></script>
+    
+    <title>Calculator</title>    
+</head>
+<body>
+    <h1 class="display-1 text-center">Calculator</h1>
+
+    <form action="">
+        <div class="input-group number-input-group">
+            <input class="form-control" name="input" type="text" numberInput>
+            <button class="btn btn-primary" type="button" clear>C</button>
+        </div>
+        
+        <div class="calc-pad">
+            <div class="btn-group-vertical calc-btn-container">
+                <div class="btn-group">
+                    <button class="calc-btn digit-btn btn btn-secondary" value="1">1</button>
+                    <button class="calc-btn digit-btn btn btn-secondary" value="2">2</button>
+                    <button class="calc-btn digit-btn btn btn-secondary" value="3">3</button>
+                    <button class="calc-btn op-btn btn btn-secondary" value="+">+</button>
+                </div>
+                <div class="btn-group">
+                    <button class="calc-btn digit-btn btn btn-secondary" value="4">4</button>
+                    <button class="calc-btn digit-btn btn btn-secondary" value="5">5</button>
+                    <button class="calc-btn digit-btn btn btn-secondary" value="6">6</button>
+                    <button class="calc-btn op-btn btn btn-secondary" value="-">-</button>
+                </div>
+                <div class="btn-group">          
+                    <button class="calc-btn digit-btn btn btn-secondary" value="7">7</button>
+                    <button class="calc-btn digit-btn btn btn-secondary" value="8">8</button>
+                    <button class="calc-btn digit-btn btn btn-secondary" value="9">9</button>
+                    <button class="calc-btn op-btn btn btn-secondary" value="*">x</button>
+                </div>
+                <div class="btn-group">          
+                    <button class="calc-btn digit-btn digit-btn-lg btn btn-secondary" value="0">0</button>
+                    <button class="calc-btn op-btn btn btn-secondary" value="/">÷</button>
+                </div>         
+            </div>
+        </div>
+
+        <input class="btn btn-primary calculate-btn" type="button" value="Calculate" calculate>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+h1 {
+    padding: 5%
+}
+
+form {
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+
+.calc-btn {
+    padding: 5%;
+    font-size: 40px;
+    width: 100%;
+}
+
+.digit-btn {
+    background-color: rgb(107, 111, 113);
+    border-color: rgb(107, 111, 113);
+}
+
+.digit-btn-lg {
+    width: 400%;
+}
+
+.op-btn {
+    background-color: rgba(253, 177, 0, 0.921);
+    border-color: rgb(253, 177, 0, 0.921);
+}
+
+.calculate-btn {
+    margin-top: 5%;
+    width: 100%;
+    font-size: 30px;
+    background-color: rgb(1, 141, 228);
+}
+
+.calc-pad {
+    margin-top: 50px;
+}
+
+.calc-btn-container {
+    margin: auto;
+    display: block;
+}
+
+.number-input-group > input{
+    font-size: 30px;
+}
+
+.number-input-group > button{
+    width: 25%;
+    font-size: 30px;
+    background-color: rgb(1, 141, 228);
+}
